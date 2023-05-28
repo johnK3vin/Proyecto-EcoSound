@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #11009E;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.navList li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navList li a {
+    text-shadow: 0 1px 1px black;
+    text-decoration: none;
+    color: white;
+}
